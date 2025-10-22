@@ -1,6 +1,7 @@
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P14, joystickbit.ButtonType.down, function () {
     joystickbit.Vibration_Motor(100)
     basic.showString("E")
+    radio.sendNumber(4)
 })
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(1)
@@ -9,6 +10,7 @@ input.onButtonPressed(Button.A, function () {
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P15, joystickbit.ButtonType.down, function () {
     joystickbit.Vibration_Motor(100)
     basic.showString("F")
+    radio.sendNumber(4)
 })
 input.onButtonPressed(Button.AB, function () {
     radio.sendNumber(3)
@@ -21,10 +23,12 @@ input.onButtonPressed(Button.B, function () {
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P13, joystickbit.ButtonType.down, function () {
     joystickbit.Vibration_Motor(100)
     basic.showString("D")
+    radio.sendNumber(4)
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType.down, function () {
     joystickbit.Vibration_Motor(100)
     basic.showString("C")
+    radio.sendNumber(4)
 })
 radio.setGroup(1)
 joystickbit.initJoystickBit()
