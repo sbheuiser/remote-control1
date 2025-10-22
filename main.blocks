@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="CIwDmyGaSz3EE+mRrA`_" x="56" y="50"><statement name="HANDLER"><block type="radio_set_group" id="aOvgUXIF6/ZW|w*4VIP:"><value name="ID"><shadow type="math_number_minmax" id="Z2~avW?XgU=S/IrSJi#|"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_button_event" id="9g~j_hmOPK+dU:XK*oh=" x="339" y="65"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send" id="w`7G=xg%U8MqYaB{/Zxd"><value name="value"><shadow type="math_number" id="5eK16YBewMAoB1Cr3y)C"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="J)9((/wVmYK81#U%,D^T" x="588" y="65"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send" id="cF]j#*y+=8Kf4_}gus|q"><value name="value"><shadow type="math_number" id="cTlE3a@rK}{srEKCazPT"><field name="NUM">2</field></shadow></value></block></statement></block><block type="device_button_event" id="NAe$i9w%*~i4UgGLjQuK" x="346" y="199"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="radio_datagram_send" id="e,gg=yV3gD9@Z[=|o+Sk"><value name="value"><shadow type="math_number" id="VshGO#e!4x%ZI2BIv-Pz"><field name="NUM">3</field></shadow></value></block></statement></block><block type="onButtonEvent" id="hkG(+iBhyW*|Z}S0~q{|" x="58" y="390"><field name="button">joystickbit.JoystickBitPin.P12</field><field name="event">joystickbit.ButtonType.down</field><statement name="HANDLER"><block type="device_show_leds" id="QRsf_YqW,Que{4a]QC7D"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # . . . 
+        . # . . . 
+        . # # # .
+        `</field></block></statement></block><block type="onButtonEvent" id="(m[3|L=Zfg(N0z}EuRH-" x="378" y="390"><field name="button">joystickbit.JoystickBitPin.P13</field><field name="event">joystickbit.ButtonType.down</field><statement name="HANDLER"><block type="device_show_leds" id="#wLTJv.=)p@SSSDdibKh"><field name="LEDS">`
+        . # # . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . # # . .
+        `</field></block></statement></block><block type="onButtonEvent" id="np}rR!MASBoC?^kBw#No" x="677" y="393"><field name="button">joystickbit.JoystickBitPin.P14</field><field name="event">joystickbit.ButtonType.down</field><statement name="HANDLER"><block type="device_show_leds" id="24hDsOz4FzfkU6X6DVS^"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field></block></statement></block><block type="onButtonEvent" id="_ZOp]*qbbI((MX5@D-|X" x="978" y="394"><field name="button">joystickbit.JoystickBitPin.P15</field><field name="event">joystickbit.ButtonType.down</field><statement name="HANDLER"><block type="device_show_leds" id="F7@p9%uIvrNMN1?TcSJe"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . # . . . 
+        . # . . .
+        `</field></block></statement></block></xml>
