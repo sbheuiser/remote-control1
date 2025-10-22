@@ -1,4 +1,5 @@
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P14, joystickbit.ButtonType.down, function () {
+    joystickbit.Vibration_Motor(100)
     basic.showString("E")
 })
 input.onButtonPressed(Button.A, function () {
@@ -6,6 +7,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("A")
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P15, joystickbit.ButtonType.down, function () {
+    joystickbit.Vibration_Motor(100)
     basic.showString("F")
 })
 input.onButtonPressed(Button.AB, function () {
@@ -17,10 +19,13 @@ input.onButtonPressed(Button.B, function () {
     basic.showString("B")
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P13, joystickbit.ButtonType.down, function () {
+    joystickbit.Vibration_Motor(100)
     basic.showString("D")
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType.down, function () {
+    joystickbit.Vibration_Motor(100)
     basic.showString("C")
 })
 radio.setGroup(1)
+joystickbit.initJoystickBit()
 basic.showIcon(IconNames.Chessboard)
